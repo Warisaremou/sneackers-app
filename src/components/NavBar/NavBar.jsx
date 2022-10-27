@@ -2,10 +2,12 @@ import React from "react";
 import Cart from "../Cart/Cart";
 import logo from "../../pictures/logo.svg";
 import userProfil from "../../pictures/image-avatar.png";
+import { HiOutlineMenu } from "react-icons/hi";
 
 function NavBar() {
   return (
     <nav className="navbar ">
+      <HiOutlineMenu className="text-2xl block md:hidden mt-1 cursor-pointer" />
       <ul className="navbar-nav">
         <div className="logo">
           <img src={logo} alt="Sneackers-logo" />

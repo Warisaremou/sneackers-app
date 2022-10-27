@@ -567,12 +567,20 @@ video {
   top: 3rem;
 }
 
-.-left-16 {
-  left: -4rem;
-}
-
 .-left-24 {
   left: -6rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.block {
+  display: block;
 }
 
 .hidden {
@@ -635,6 +643,16 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-pure-orange {
@@ -726,6 +744,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
