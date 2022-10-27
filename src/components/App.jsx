@@ -1,9 +1,13 @@
+import NavBar from "./NavBar/NavBar";
+import SneackersInfo from "./SneackersInfo/SneackersInfo";
+import SneackersList from "./SneackersLIst/SneackersList";
+
 function App() {
   return (
-    <div className="font-poppins">
-      <h1 className="text-2xl font-bold text-center text-pure-orange">
-        Ready World
-      </h1>
+    <div className="px-8 md:px-8 lg:container font-poppins">
+      <NavBar />
+      <SneackersList />
+      <SneackersInfo />
     </div>
   );
 }

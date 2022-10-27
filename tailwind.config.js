@@ -5,8 +5,14 @@ module.exports = {
     extend: {
       colors: {
         "pure-orange": "#ff7d1b",
-        "orange": "#ffac6a",
+        orange: "#ffac6a",
         "light-box": "#404040",
+      },
+      padding: {
+        "42px": "42px",
+      },
+      boxShadow: {
+        "3xl": "5px 5px 10px rgba(0, 0, 0, 0.3)",
       },
     },
     fontFamily: {

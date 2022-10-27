@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navbar {
+  @apply flex justify-between items-center py-8 border-b-2;
+}
+.navbar-nav {
+  @apply flex;
+}
+.logo {
+  @apply mr-5 md:mr-2 lg:mr-5;
+}
+.nav-item {
+  @apply px-0 md:px-3 hidden md:block;
+}
+.nav-link {
+  @apply text-gray-500 pb-[42px] hover:text-black hover:border-b-4 hover:border-pure-orange duration-150;
+}
+.aside-nav {
+  @apply flex items-center;
+}
+
+.user {
+  @apply w-12 ml-8 border-2 hover:border-orange duration-100 rounded-full cursor-pointer;
+}
+
+/* Cart */
+.cart > div {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
