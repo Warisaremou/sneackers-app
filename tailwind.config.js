@@ -5,8 +5,9 @@ module.exports = {
     extend: {
       colors: {
         "pure-orange": "#ff7d1b",
-        orange: "#ffac6a",
+        "orange": "#ffac6a",
         "light-box": "#404040",
+        "pure-gray": "#b5b6bb",
       },
       padding: {
         "42px": "42px",

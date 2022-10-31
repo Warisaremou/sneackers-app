@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import { BsCart3 } from "react-icons/bs";
+// import { BsCart3 } from "react-icons/bs";
+import { BsBag } from "react-icons/bs";
 
 function Cart() {
   const [openCart, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ function Cart() {
 
   return (
     <div className="cart relative">
-      <BsCart3
+      <BsBag
         className={`cursor-pointer text-xl ${
           openCart ? "text-pure-orange" : null
         }`}

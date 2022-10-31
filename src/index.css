@@ -25,8 +25,22 @@
   @apply w-12 ml-8 border-2 hover:border-orange duration-100 rounded-full cursor-pointer;
 }
 
+/*  Sneackers Info */
+
+.price-content{
+  @apply flex flex-row md:flex-col justify-between items-center md:items-start font-bold mb-4;
+}
+
+.incrementation-btn{
+  @apply text-pure-orange hover:text-orange duration-100 text-3xl cursor-pointer;
+}
+
+.add-btn{
+  @apply flex justify-center items-center text-white py-4 px-6 font-bold rounded-xl text-lg bg-pure-orange hover:bg-orange duration-200;
+}
+
 /* Cart */
 .cart > div {
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
 }
 
