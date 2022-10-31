@@ -14,7 +14,7 @@ function SneackersInfo() {
       <h4 className="text-xl md:text-4xl font-bold my-4">
         Fall Limited Edition Sneackers
       </h4>
-      <p className="text-gray-400 text-lg my-4">
+      <p className="text-gray-400 text-md my-4">
         These low-profile sneackers are your perfect casual wear companion.
         Featuring a durable rubber outer sole, they'll withstand everything the
         weather can offer.
@@ -28,7 +28,7 @@ function SneackersInfo() {
             </span>
           </p>
         </div>
-        <h4 className="text-2xl text-pure-gray line-through">$250.00</h4>
+        <h4 className="text-xl text-pure-gray line-through">$250.00</h4>
       </div>
       <div className="flex flex-col gap-6 md:flex-row">
         <div className="font-bold flex justify-center items-center bg-gray-100 md:mr-4 py-4 px-6 rounded-xl">
