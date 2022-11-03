@@ -9,7 +9,7 @@ function Thumbnail({
   setIsPictureActive,
 }) {
   const showActivePicture = () => {
-    console.log(cover);
+    // console.log(cover);
     setIsClicked(true);
     setIsPictureActive(cover);
   };

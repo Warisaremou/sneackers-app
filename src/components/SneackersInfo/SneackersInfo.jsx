@@ -32,9 +32,21 @@ function SneackersInfo() {
       </div>
       <div className="flex flex-col gap-6 md:flex-row">
         <div className="font-bold flex justify-center items-center bg-gray-100 md:mr-4 py-4 px-6 rounded-xl">
-          <IoIosRemove className="incrementation-btn" onClick={() => setNumber(sneackerNumber <= 0 ? sneackerNumber = 0 : sneackerNumber - 1)} />
+          <IoIosRemove
+            className={`incrementation-btn ${
+              sneackerNumber === 0 ? "text-blue-600" : ""
+            }`}
+            onClick={() =>
+              setNumber(
+                sneackerNumber === 0 ? (sneackerNumber = 0) : sneackerNumber - 1
+              )
+            }
+          />
           <span className="px-12">{sneackerNumber}</span>
-          <IoIosAdd className="incrementation-btn" onClick={() => setNumber(sneackerNumber + 1)} />
+          <IoIosAdd
+            className="incrementation-btn"
+            onClick={() => setNumber(sneackerNumber + 1)}
+          />
         </div>
         <button className="add-btn">
           <BsBag className="mr-4 text-2xl" /> Add to cart

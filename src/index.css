@@ -32,7 +32,7 @@
 }
 
 .incrementation-btn{
-  @apply text-pure-orange hover:text-orange duration-100 text-3xl cursor-pointer;
+  @apply text-pure-orange text-3xl cursor-pointer;
 }
 
 .add-btn{

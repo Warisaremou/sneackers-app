@@ -21,12 +21,12 @@ function Cart() {
       <div
         className={
           openCart
-            ? "absolute  rounded-lg py-4 bg-white text-md top-12 -left-24 w-max"
+            ? "absolute rounded-lg py-4 bg-white text-md top-12 -right-14 w-64 transition-all duration-1000"
             : "hidden"
         }
       >
         <h4 className="text-center border-b-2 pb-2">Cart</h4>
-        <div className="pt-4 px-6">Your cart is empty.</div>
+        <div className="pt-4 px-6">Your cart is empty Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quia.</div>
       </div>
     </div>
   );
