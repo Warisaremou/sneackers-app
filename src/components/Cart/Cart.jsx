@@ -21,7 +21,7 @@ function Cart() {
       <div
         className={
           openCart
-            ? "absolute rounded-lg py-4 bg-white text-md top-12 -right-14 w-64 transition-all duration-1000"
+            ? "absolute rounded-lg py-4 bg-white text-md top-12 -right-20 w-80 max-[320px]:w-72 transition-all duration-1000"
             : "hidden"
         }
       >
