@@ -2,7 +2,7 @@
 
 # Design-Peview
 
-!(src/pictures/design/preview.png)
+![Click here to see the design](src/pictures/design/preview.png)
 
 ### This App is build with :
 
