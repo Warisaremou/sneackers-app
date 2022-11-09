@@ -56,8 +56,8 @@ function SneackersInfo({ sneackerDetails, setSneackerDetails, isPictureActive, s
           />
         </div>
         {/* Affichage du nombre de commande */}
-        <p>{sneackerNumber}</p>
-        
+        {/* <p>{sneackerNumber}</p> */}
+
         <button className="add-btn">
           <BsBag className="mr-4 text-2xl" onClick={() => addToCart()} /> Add to
           cart
