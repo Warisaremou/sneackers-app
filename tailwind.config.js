@@ -10,7 +10,7 @@ module.exports = {
         "pure-gray": "#b5b6bb",
       },
       padding: {
-        "42px": "42px",
+        "46px": "46px",
       },
       boxShadow: {
         "3xl": "5px 5px 10px rgba(0, 0, 0, 0.3)",
