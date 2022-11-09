@@ -13,23 +13,27 @@ export const AllSneackersList = [
     name: "product1",
     thumbnail: product1Thumbnail,
     cover: product1,
+    price: "125",
   },
   {
     id: "2",
     name: "product2",
     thumbnail: product2Thumbnail,
     cover: product2,
+    price: "125",
   },
   {
     id: "3",
     name: "product3",
     thumbnail: product3Thumbnail,
     cover: product3,
+    price: "125",
   },
   {
     id: "4",
     name: "product4",
     thumbnail: product4Thumbnail,
     cover: product4,
+    price: "125",
   },
 ];
