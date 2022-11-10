@@ -1,6 +1,6 @@
-## Responsive e-commerce-product-mini-app
+# Responsive e-commerce-product-mini-app
 
-# Design-Peview
+### Design-Peview
 
 ![Click here to see the design](src/pictures/design/preview.png)
 
