@@ -6,5 +6,6 @@
 
 ### This App is build with :
 
-- [React](https://reactjs.org) - JS library
-- and [tailwindcss](https://tailwindcss.com) - CSS library
+-   [React](https://reactjs.org) - JS library
+-   and [tailwindcss](https://tailwindcss.com) - CSS library
+-   [click here](https://warisaremou.github.io/sneackers-app)
