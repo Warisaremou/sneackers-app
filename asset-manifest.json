@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sneackers-app/static/css/main.21ff2d03.css",
+    "main.js": "/sneackers-app/static/js/main.4170b6a9.js",
+    "static/js/787.819683d8.chunk.js": "/sneackers-app/static/js/787.819683d8.chunk.js",
+    "static/media/image-product-2.jpg": "/sneackers-app/static/media/image-product-2.c8bb0aaccecdebb16596.jpg",
+    "static/media/image-product-1.jpg": "/sneackers-app/static/media/image-product-1.520cc50bd13955f55cb2.jpg",
+    "static/media/image-product-3.jpg": "/sneackers-app/static/media/image-product-3.af5c71ba9ffcc0b8b54d.jpg",
+    "static/media/image-product-4.jpg": "/sneackers-app/static/media/image-product-4.9962862ef3eff6d65e5b.jpg",
+    "static/media/logo.svg": "/sneackers-app/static/media/logo.4fe9c1e86cf9bf600f0c239f6a6e5317.svg",
+    "index.html": "/sneackers-app/index.html",
+    "main.21ff2d03.css.map": "/sneackers-app/static/css/main.21ff2d03.css.map",
+    "main.4170b6a9.js.map": "/sneackers-app/static/js/main.4170b6a9.js.map",
+    "787.819683d8.chunk.js.map": "/sneackers-app/static/js/787.819683d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21ff2d03.css",
+    "static/js/main.4170b6a9.js"
+  ]
+}
